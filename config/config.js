@@ -1,6 +1,4 @@
-const { Sequelize } = require('sequelize');
-
-require('dotenv').config(); // Ensure you load environment variables from .env
+require('dotenv').config();
 
 module.exports = {
   development: {
@@ -25,4 +23,3 @@ module.exports = {
     dialect: 'postgres',
   },
 };
-module.exports = Sequelize;
